@@ -4,7 +4,7 @@
 
   $encodedPDF = $_POST['PDF'];
 
-  $pdfTitle = $_POST['fileName'] . rand(1, 100000);
+  $pdfTitle = $_POST['fileName'];
   $pdfLocation = "documents/$pdfTitle.pdf";
   $another = "C:\\Drive_E\\3-1\\EPICS\\Catechize-master\\Catechize-master\\app\\src\\main\\assets\\$pdfTitle.pdf";
 
